@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2017%2F05%2F19%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[第一篇博客]]></title>
     <url>%2F2017%2F05%2F19%2F%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%2F</url>
-    <content type="text"><![CDATA[我的第一篇博客]]></content>
+    <content type="text"><![CDATA[我的第一篇博客 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;花了一天时间完成了博客的建立和一些优化，在其中遇到了很多很多很多的坑（当我看到404的时候那种绝望你能体会到吗）。。但这些坑让我对Hexo有了进一步的了解，也算是好事吧。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下面我会讲一下我在建博客的途中遇到的那些坑，希望看到这篇博客的同学们吸取一下我的教训，少走一些弯路。另外，想要和我交♂朋友或者有什么问题想问我的可以加我QQ：1601939052，我的微信在侧边栏。]]></content>
       <categories>
         <category>随笔</category>
       </categories>
