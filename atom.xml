@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.huajiayi.top/"/>
-  <updated>2017-05-20T07:55:56.264Z</updated>
+  <updated>2017-05-20T13:55:38.159Z</updated>
   <id>http://www.huajiayi.top/</id>
   
   <author>
@@ -20,11 +20,11 @@
     <link href="http://www.huajiayi.top/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.html"/>
     <id>http://www.huajiayi.top/第一篇博客.html</id>
     <published>2017-05-19T13:11:25.000Z</published>
-    <updated>2017-05-20T07:55:56.264Z</updated>
+    <updated>2017-05-20T13:55:38.159Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://opiwm45uz.bkt.clouddn.com/hexo.png" alt=""><br>&emsp;想要自己搭建个人博客的可以去看一下<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="external">GitHub+Hexo 搭建个人网站详细教程</a>,写的很详细。下面我会讲一下我在建博客的途中遇到的那些坑，希望看到这篇博客的同学们吸取一下我的教训，少走一些弯路。<a id="more"></a>另外，想要和我交♂朋友或者有什么问题想问我的可以加我QQ：1601939052，我的微信在侧边栏。</p>
+    <content type="html"><![CDATA[<p><img src="http://opiwm45uz.bkt.clouddn.com/hexo.png" alt=""><br>&emsp;&emsp;想要自己搭建个人博客的可以去看一下<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="external">GitHub+Hexo 搭建个人网站详细教程</a>,写的很详细。下面我会讲一下我在建博客的途中遇到的那些坑，希望看到这篇博客的同学们吸取一下我的教训，少走一些弯路。<a id="more"></a>另外，想要和我交♂朋友或者有什么问题想问我的可以加我QQ：1601939052，我的微信在侧边栏。</p>
 <h1 id="搭建博客途中遇到的坑"><a href="#搭建博客途中遇到的坑" class="headerlink" title="搭建博客途中遇到的坑"></a>搭建博客途中遇到的坑</h1><hr>
-<p>&emsp;花了一天时间完成了博客的建立和一些优化，在其中遇到了很多很多很多的坑（当我看到404的时候那种绝望你能体会到吗）。。但这些坑让我对Hexo有了进一步的了解，也算是好事吧。<br><br></p>
+<p>&emsp;&emsp;花了一天时间完成了博客的建立和一些优化，在其中遇到了很多很多很多的坑（当我看到404的时候那种绝望你能体会到吗）。。但这些坑让我对Hexo有了进一步的了解，也算是好事吧。<br><br></p>
 <div align="center"><img src="http://opiwm45uz.bkt.clouddn.com/keng.jpg"></div>
 
 <h2 id="坑1：仓库的名字"><a href="#坑1：仓库的名字" class="headerlink" title="坑1：仓库的名字"></a>坑1：仓库的名字</h2><p>仓库的名字的正确格式是<strong>github用户名.github.io</strong>，之前没仔细看，随便起了个，果断报错。</p>
@@ -40,7 +40,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://opiwm45uz.bkt.clouddn.com/hexo.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&amp;emsp;想要自己搭建个人博客的可以去看一下&lt;a href=&quot;https://zhuanlan.zhihu.com/p/26625249&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub+Hexo 搭建个人网站详细教程&lt;/a&gt;,写的很详细。下面我会讲一下我在建博客的途中遇到的那些坑，希望看到这篇博客的同学们吸取一下我的教训，少走一些弯路。
+      &lt;p&gt;&lt;img src=&quot;http://opiwm45uz.bkt.clouddn.com/hexo.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&amp;emsp;&amp;emsp;想要自己搭建个人博客的可以去看一下&lt;a href=&quot;https://zhuanlan.zhihu.com/p/26625249&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub+Hexo 搭建个人网站详细教程&lt;/a&gt;,写的很详细。下面我会讲一下我在建博客的途中遇到的那些坑，希望看到这篇博客的同学们吸取一下我的教训，少走一些弯路。
     
     </summary>
     
