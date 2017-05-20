@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.huajiayi.top/"/>
-  <updated>2017-05-20T01:33:28.260Z</updated>
+  <updated>2017-05-20T07:55:56.264Z</updated>
   <id>http://www.huajiayi.top/</id>
   
   <author>
@@ -16,22 +16,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>第一篇博客</title>
+    <title>用GitHub Page+Hexo搭建个人博客（持续更新）</title>
     <link href="http://www.huajiayi.top/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.html"/>
     <id>http://www.huajiayi.top/第一篇博客.html</id>
     <published>2017-05-19T13:11:25.000Z</published>
-    <updated>2017-05-20T01:33:28.260Z</updated>
+    <updated>2017-05-20T07:55:56.264Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="我的第一篇博客（持续更新）"><a href="#我的第一篇博客（持续更新）" class="headerlink" title="我的第一篇博客（持续更新）"></a>我的第一篇博客（持续更新）</h1><hr>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;花了一天时间完成了博客的建立和一些优化，在其中遇到了很多很多很多的坑（当我看到404的时候那种绝望你能体会到吗）。。但这些坑让我对Hexo有了进一步的了解，也算是好事吧。</p>
-<p><img src="http://opiwm45uz.bkt.clouddn.com/keng.jpg" alt=""><br><a id="more"></a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下面我会讲一下我在建博客的途中遇到的那些坑，希望看到这篇博客的同学们吸取一下我的教训，少走一些弯路。另外，想要和我交♂朋友或者有什么问题想问我的可以加我QQ：1601939052，我的微信在侧边栏。</p>
+    <content type="html"><![CDATA[<p><img src="http://opiwm45uz.bkt.clouddn.com/hexo.png" alt=""><br>&emsp;想要自己搭建个人博客的可以去看一下<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="external">GitHub+Hexo 搭建个人网站详细教程</a>,写的很详细。下面我会讲一下我在建博客的途中遇到的那些坑，希望看到这篇博客的同学们吸取一下我的教训，少走一些弯路。<a id="more"></a>另外，想要和我交♂朋友或者有什么问题想问我的可以加我QQ：1601939052，我的微信在侧边栏。</p>
+<h1 id="搭建博客途中遇到的坑"><a href="#搭建博客途中遇到的坑" class="headerlink" title="搭建博客途中遇到的坑"></a>搭建博客途中遇到的坑</h1><hr>
+<p>&emsp;花了一天时间完成了博客的建立和一些优化，在其中遇到了很多很多很多的坑（当我看到404的时候那种绝望你能体会到吗）。。但这些坑让我对Hexo有了进一步的了解，也算是好事吧。<br><br></p>
+<div align="center"><img src="http://opiwm45uz.bkt.clouddn.com/keng.jpg"></div>
+
+<h2 id="坑1：仓库的名字"><a href="#坑1：仓库的名字" class="headerlink" title="坑1：仓库的名字"></a>坑1：仓库的名字</h2><p>仓库的名字的正确格式是<strong>github用户名.github.io</strong>，之前没仔细看，随便起了个，果断报错。</p>
+<h2 id="坑2：是Git不是GitHub"><a href="#坑2：是Git不是GitHub" class="headerlink" title="坑2：是Git不是GitHub"></a>坑2：是Git不是GitHub</h2><p>git是指Git Bash不是GitHub更不是GitHub Shell</p>
+<h2 id="坑3：Hexo命令"><a href="#坑3：Hexo命令" class="headerlink" title="坑3：Hexo命令"></a>坑3：Hexo命令</h2><p>Hexo命令在Git里打，Git要运行在本地Hexo的根目录下。</p>
+<h2 id="坑4：-config-yml配置文件"><a href="#坑4：-config-yml配置文件" class="headerlink" title="坑4：_config.yml配置文件"></a>坑4：_config.yml配置文件</h2><p>_config.yml配置文件的语法非常严格，“:”后面要<strong>一定</strong>要加上<strong>一个</strong>空格</p>
+<h2 id="坑5：在yourname-github-io的根目录下添加CNAME"><a href="#坑5：在yourname-github-io的根目录下添加CNAME" class="headerlink" title="坑5：在yourname.github.io的根目录下添加CNAME"></a>坑5：在yourname.github.io的根目录下添加CNAME</h2><p>具体就是在Hexo目录里的source文件下添加一个名为CNAME的文件，<strong>注意这个文件是没有后缀的</strong>，<strong>千万不要设置成.txt文本文件</strong>，文件的内容就是域名，格式如：</p>
+<blockquote>
+<p>www.huajiayi.top</p>
+</blockquote>
+<p>其他就没什么了，按照教程一步一步做就行。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;我的第一篇博客（持续更新）&quot;&gt;&lt;a href=&quot;#我的第一篇博客（持续更新）&quot; class=&quot;headerlink&quot; title=&quot;我的第一篇博客（持续更新）&quot;&gt;&lt;/a&gt;我的第一篇博客（持续更新）&lt;/h1&gt;&lt;hr&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;花了一天时间完成了博客的建立和一些优化，在其中遇到了很多很多很多的坑（当我看到404的时候那种绝望你能体会到吗）。。但这些坑让我对Hexo有了进一步的了解，也算是好事吧。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://opiwm45uz.bkt.clouddn.com/keng.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;
+      &lt;p&gt;&lt;img src=&quot;http://opiwm45uz.bkt.clouddn.com/hexo.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&amp;emsp;想要自己搭建个人博客的可以去看一下&lt;a href=&quot;https://zhuanlan.zhihu.com/p/26625249&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub+Hexo 搭建个人网站详细教程&lt;/a&gt;,写的很详细。下面我会讲一下我在建博客的途中遇到的那些坑，希望看到这篇博客的同学们吸取一下我的教训，少走一些弯路。
     
     </summary>
     
