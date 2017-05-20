@@ -79,8 +79,6 @@
 
 
 
-  
-
 
   <link rel="alternate" href="/atom.xml" title="华嘉熠’s Blog" type="application/atom+xml" />
 
@@ -344,6 +342,8 @@
 
           
   <div class="comments" id="comments">
+    
+      <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
     
   </div>
 
@@ -784,18 +784,21 @@
 
 
   
-
-
-
-
-
+    
+    <script>
+      var cloudTieConfig = {
+        url: document.location.href, 
+        sourceId: "",
+        productKey: "c67acf9709ad4cebb9f5096b51829d70",
+        target: "cloud-tie-wrapper"
+      };
+    </script>
+    <script src="https://img1.ws.126.net/f2e/tie/yun/sdk/loader.js"></script>
   
 
 
 
 
-
-  
 
 
 
