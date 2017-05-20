@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-05-19T14:56:26.542Z</updated>
+  <updated>2017-05-20T01:33:28.260Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,16 +20,16 @@
     <link href="http://yoursite.com/2017/05/19/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2017/05/19/第一篇博客/</id>
     <published>2017-05-19T13:11:25.000Z</published>
-    <updated>2017-05-19T14:56:26.542Z</updated>
+    <updated>2017-05-20T01:33:28.260Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="我的第一篇博客"><a href="#我的第一篇博客" class="headerlink" title="我的第一篇博客"></a>我的第一篇博客</h1><hr>
+    <content type="html"><![CDATA[<h1 id="我的第一篇博客（持续更新）"><a href="#我的第一篇博客（持续更新）" class="headerlink" title="我的第一篇博客（持续更新）"></a>我的第一篇博客（持续更新）</h1><hr>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;花了一天时间完成了博客的建立和一些优化，在其中遇到了很多很多很多的坑（当我看到404的时候那种绝望你能体会到吗）。。但这些坑让我对Hexo有了进一步的了解，也算是好事吧。</p>
 <p><img src="http://opiwm45uz.bkt.clouddn.com/keng.jpg" alt=""><br><a id="more"></a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下面我会讲一下我在建博客的途中遇到的那些坑，希望看到这篇博客的同学们吸取一下我的教训，少走一些弯路。另外，想要和我交♂朋友或者有什么问题想问我的可以加我QQ：1601939052，我的微信在侧边栏。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;我的第一篇博客&quot;&gt;&lt;a href=&quot;#我的第一篇博客&quot; class=&quot;headerlink&quot; title=&quot;我的第一篇博客&quot;&gt;&lt;/a&gt;我的第一篇博客&lt;/h1&gt;&lt;hr&gt;
+      &lt;h1 id=&quot;我的第一篇博客（持续更新）&quot;&gt;&lt;a href=&quot;#我的第一篇博客（持续更新）&quot; class=&quot;headerlink&quot; title=&quot;我的第一篇博客（持续更新）&quot;&gt;&lt;/a&gt;我的第一篇博客（持续更新）&lt;/h1&gt;&lt;hr&gt;
 &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;花了一天时间完成了博客的建立和一些优化，在其中遇到了很多很多很多的坑（当我看到404的时候那种绝望你能体会到吗）。。但这些坑让我对Hexo有了进一步的了解，也算是好事吧。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://opiwm45uz.bkt.clouddn.com/keng.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;
     
