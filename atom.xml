@@ -4,9 +4,9 @@
   <subtitle>Welcome!</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://www.huajiayi.top/"/>
   <updated>2017-05-20T01:33:28.260Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://www.huajiayi.top/</id>
   
   <author>
     <name>华嘉熠</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>第一篇博客</title>
-    <link href="http://yoursite.com/2017/05/19/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://yoursite.com/2017/05/19/第一篇博客/</id>
+    <link href="http://www.huajiayi.top/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.html"/>
+    <id>http://www.huajiayi.top/第一篇博客.html</id>
     <published>2017-05-19T13:11:25.000Z</published>
     <updated>2017-05-20T01:33:28.260Z</updated>
     
@@ -35,10 +35,10 @@
     
     </summary>
     
-      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://www.huajiayi.top/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="文章" scheme="http://yoursite.com/tags/%E6%96%87%E7%AB%A0/"/>
+      <category term="文章" scheme="http://www.huajiayi.top/tags/%E6%96%87%E7%AB%A0/"/>
     
   </entry>
   
