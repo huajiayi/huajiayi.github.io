@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.huajiayi.top/"/>
-  <updated>2017-05-21T07:34:12.924Z</updated>
+  <updated>2017-05-21T08:58:21.384Z</updated>
   <id>http://www.huajiayi.top/</id>
   
   <author>
@@ -16,11 +16,44 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>如何免费观看各大视频网站会员/收费视频</title>
+    <link href="http://www.huajiayi.top/vipjiexi.html"/>
+    <id>http://www.huajiayi.top/vipjiexi.html</id>
+    <published>2017-05-21T08:01:57.000Z</published>
+    <updated>2017-05-21T08:58:21.384Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://opiwm45uz.bkt.clouddn.com/wannaknow.png?imageslim" alt=""><br><a id="more"></a></p>
+<p>&emsp;&emsp;最近发现一个可以在线免费观看各大视频网站会员/收费视频的地方。我已经测试过了，速度比较稳定，只不过腾讯和爱奇艺的视频好像不能看了，前几天还好好的。。</p><br><p>这是优酷的会员视频：一条狗的使命</p>
+
+<p><img src="http://opiwm45uz.bkt.clouddn.com/dog.png?imageslim" alt=""></p>
+<p>这是乐视的收费视频：盗墓笔记</p>
+
+<p><img src="http://opiwm45uz.bkt.clouddn.com/note.png?imageslim" alt=""></p>
+<p>在线观看网址：</p>
+
+<p><a href="http://www.vipjiexi.com" target="_blank" rel="external">vip视频解析</a></p>
+<p><strong>尽量不要传播，毕竟是灰色地带</strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://opiwm45uz.bkt.clouddn.com/wannaknow.png?imageslim&quot; alt=&quot;&quot;&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://www.huajiayi.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="福利" scheme="http://www.huajiayi.top/tags/%E7%A6%8F%E5%88%A9/"/>
+    
+  </entry>
+  
+  <entry>
     <title>用GitHub Page+Hexo搭建个人博客（持续更新）</title>
     <link href="http://www.huajiayi.top/mFirstBlog.html"/>
     <id>http://www.huajiayi.top/mFirstBlog.html</id>
     <published>2017-05-19T13:11:25.000Z</published>
-    <updated>2017-05-21T07:34:12.924Z</updated>
+    <updated>2017-05-21T08:03:34.343Z</updated>
     
     <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p><br></p>
 <p><img src="http://opiwm45uz.bkt.clouddn.com/hexo.png" alt=""><br>&emsp;&emsp;想要自己搭建个人博客的可以去看一下<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="external">GitHub+Hexo 搭建个人网站详细教程</a>,写的很详细。下面我会讲一下我在建博客的途中遇到的那些坑，希望看到这篇博客的同学们吸取一下我的教训，少走一些弯路。<a id="more"></a>另外，想要和我交♂朋友或者有什么问题想问我的可以加我QQ：1601939052，我的微信在侧边栏。</p>
@@ -65,7 +98,7 @@
       <category term="随笔" scheme="http://www.huajiayi.top/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="文章" scheme="http://www.huajiayi.top/tags/%E6%96%87%E7%AB%A0/"/>
+      <category term="搭建博客" scheme="http://www.huajiayi.top/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
