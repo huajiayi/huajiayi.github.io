@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[C语言学习-数组]]></title>
+    <url>%2Fblog3.html</url>
+    <content type="text"><![CDATA[&emsp;&emsp;C语言支持一维数组和多维数组，如果一个数组的所有元素都不是数组，那么该数组被称为一维数组。 一维数组一维数组的定义方式在C语言中使用数组必须先进行定义。一维数组的定义方式为： 数据类型 数组名 [数组长度] = {元素,元素,…} 其中，数组长度指的是数组内元素的个数。例如： int i[5] = {1,2,3,4,5}; //最常用的写法 也可以这样定义： int i[5] = {1,2}; //第3、第4、第5个元素自动赋值为0 int i[5] = {0}; //所有元素都赋值为0 还有一种写法： int i[5]; //不可直接使用，需给元素赋值 i[0] = 1; i[1] = 2; i[2] = 3; //赋值 i[3] = 4; i[4] = 5; 这里要注意，数组的下标是从0开始的，如a[0]表示数组a内的第一个元素。 下列定义方式是错误的： int a = 5; int i[a]; 但是可以这样写： # define a 5 int i[a]; 一维数组的遍历如果想要遍历一个一维数组，可以使用for循环： int a[5] = {1,2,3}; for(i=0; i&lt;5; i++) { printf(&quot;%d &quot;, a[i]); //输出结果为：1 2 3 0 0 } 一维数组的比较如果想要比较两个一维数组中的元素，以下方式是错误的： int a[5] = {1,2,3}; int b[5] = {1,2,3}; a == b; 原因：a指的是数组a内的第一个元素的内存地址，所以结果肯定为false。 正确的写法为： int a[5] = {1,2,3}; int b[5] = {1,2,3}; for(i=0; i&lt;5; i++) { a[i] == b[i]; //结果为true } 冒泡排序冒泡排序原理： 第一个元素和其他元素一一比较，如果其他元素的值比较小，则对换两个元素的值，以此获得最小的值，放在数组的第一位。然后第二个元素和第二个元素以后的其他元素进行比较，如果其他元素的值比较小，则对换两个元素的值，以此获得第二小的值，放在数组的第二位，以此类推。 冒泡排序的实现： # include &lt;stdio.h&gt; int main(void) { int a[10] = {1,8,9,5,2,3,45,12,15,30}; int i; int j; int c; //容器 for(i=0;i&lt;=9;i++) { for(j=i;j&lt;=9;j++) { if(a[i] &gt; a[j+1]) { c = a[i]; a[i] = a[j+1]; a[j+1] = c; } } } printf(&quot;排序后的值为：&quot;); for(i=0;i&lt;=9;i++) { printf(&quot;%d &quot;, a[i]); } printf(&quot;\n&quot;); return 0; }]]></content>
+      <categories>
+        <category>c语言学习笔记</category>
+      </categories>
+      <tags>
+        <tag>冒泡排序,数组，C语言</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[如何免费观看各大视频网站会员/收费视频]]></title>
     <url>%2Fvipjiexi.html</url>
-    <content type="text"><![CDATA[&emsp;&emsp;最近发现几个可以在线免费观看各大视频网站会员/收费视频的地方。我已经测试过了，速度比较稳定。这是优酷的会员视频：一条狗的使命 这是乐视的收费视频：盗墓笔记 在线观看网址： vip视频解析（已挂） 47Player尽量不要传播，毕竟是灰色地带]]></content>
+    <content type="text"><![CDATA[&emsp;&emsp;最近发现几个可以在线免费观看各大视频网站会员/收费视频的地方。我已经测试过了，速度比较稳定。这是优酷的会员视频：一条狗的使命 这是乐视的收费视频：盗墓笔记 在线观看网址： vip视频解析 47Player]]></content>
       <categories>
         <category>随笔</category>
       </categories>
