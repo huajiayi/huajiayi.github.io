@@ -559,83 +559,14 @@
 
       
         
-          
-            <p>&emsp;&emsp;C语言支持一维数组和多维数组，如果一个数组的所有元素都不是数组，那么该数组被称为一维数组。</p>
-<h1 id="一维数组"><a href="#一维数组" class="headerlink" title="一维数组"></a>一维数组</h1><h2 id="一维数组的定义方式"><a href="#一维数组的定义方式" class="headerlink" title="一维数组的定义方式"></a>一维数组的定义方式</h2><p>在C语言中使用数组必须先进行定义。一维数组的定义方式为：</p>
-<blockquote>
-<p>数据类型 数组名 [数组长度] = {元素,元素,…}</p>
-</blockquote>
-<p>其中，数组长度指的是数组内元素的个数。例如：</p>
-<pre><code>int i[5] = {1,2,3,4,5};    //最常用的写法
-</code></pre><p>也可以这样定义：</p>
-<pre><code>int i[5] = {1,2}; //第3、第4、第5个元素自动赋值为0
-int i[5] = {0};    //所有元素都赋值为0
-</code></pre><p>还有一种写法：</p>
-<pre><code>int i[5]; //不可直接使用，需给元素赋值
-i[0] = 1; 
-i[1] = 2;
-i[2] = 3;   //赋值
-i[3] = 4;
-i[4] = 5; 
-</code></pre><p>这里要注意，数组的下标是从0开始的，如a[0]表示数组a内的第一个元素。</p>
-<p>下列定义方式是错误的：</p>
-<pre><code>int a = 5;
-int i[a];
-</code></pre><p>但是可以这样写：</p>
-<pre><code># define a 5
-int i[a];
-</code></pre><h2 id="一维数组的遍历"><a href="#一维数组的遍历" class="headerlink" title="一维数组的遍历"></a>一维数组的遍历</h2><p>如果想要遍历一个一维数组，可以使用for循环：</p>
-<pre><code>int a[5] = {1,2,3};
-for(i=0; i&lt;5; i++)
-{
-    printf(&quot;%d &quot;, a[i]); //输出结果为：1 2 3 0 0
-}
-</code></pre><h2 id="一维数组的比较"><a href="#一维数组的比较" class="headerlink" title="一维数组的比较"></a>一维数组的比较</h2><p>如果想要比较两个一维数组中的元素，以下方式是错误的：</p>
-<pre><code>int a[5] = {1,2,3};
-int b[5] = {1,2,3};
-a == b;
-</code></pre><p>原因：a指的是数组a内的第一个元素的内存地址，所以结果肯定为false。</p>
-<p>正确的写法为：</p>
-<pre><code>int a[5] = {1,2,3};
-int b[5] = {1,2,3};
-for(i=0; i&lt;5; i++)
-{
-    a[i] == b[i]; //结果为true
-}
-</code></pre><h2 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h2><p>冒泡排序原理：</p>
-<p>第一个元素和其他元素一一比较，如果其他元素的值比较小，则对换两个元素的值，以此获得最小的值，放在数组的第一位。然后第二个元素和第二个元素以后的其他元素进行比较，如果其他元素的值比较小，则对换两个元素的值，以此获得第二小的值，放在数组的第二位，以此类推。</p>
-<p>冒泡排序的实现：</p>
-<pre><code># include &lt;stdio.h&gt;
-
-int main(void)
-{
-    int a[10] = {1,8,9,5,2,3,45,12,15,30};
-    int i;
-    int j;
-    int c; //容器
-    for(i=0;i&lt;=9;i++)
-    {
-        for(j=i;j&lt;=9;j++)
-        {
-            if(a[i] &gt; a[j+1])
-            {
-                c = a[i];
-                a[i] = a[j+1];
-                a[j+1] = c;
-            }
-        }
-    }
-    printf(&quot;排序后的值为：&quot;);
-    for(i=0;i&lt;=9;i++)
-    {
-        printf(&quot;%d &quot;, a[i]);
-    }
-    printf(&quot;\n&quot;);
-
-    return 0;
-}
-</code></pre>
-          
+          <p>&emsp;&emsp;C语言支持一维数组和多维数组，如果一个数组的所有元素都不是数组，那么该数组被称为一维数组。<br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/blog3.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>

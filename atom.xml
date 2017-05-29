@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.huajiayi.top/"/>
-  <updated>2017-05-29T14:55:49.917Z</updated>
+  <updated>2017-05-29T14:59:23.020Z</updated>
   <id>http://www.huajiayi.top/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="http://www.huajiayi.top/blog3.html"/>
     <id>http://www.huajiayi.top/blog3.html</id>
     <published>2017-05-29T13:38:28.000Z</published>
-    <updated>2017-05-29T14:55:49.917Z</updated>
+    <updated>2017-05-29T14:59:23.020Z</updated>
     
-    <content type="html"><![CDATA[<p>&emsp;&emsp;C语言支持一维数组和多维数组，如果一个数组的所有元素都不是数组，那么该数组被称为一维数组。</p>
+    <content type="html"><![CDATA[<p>&emsp;&emsp;C语言支持一维数组和多维数组，如果一个数组的所有元素都不是数组，那么该数组被称为一维数组。<br><a id="more"></a></p>
 <h1 id="一维数组"><a href="#一维数组" class="headerlink" title="一维数组"></a>一维数组</h1><h2 id="一维数组的定义方式"><a href="#一维数组的定义方式" class="headerlink" title="一维数组的定义方式"></a>一维数组的定义方式</h2><p>在C语言中使用数组必须先进行定义。一维数组的定义方式为：</p>
 <blockquote>
 <p>数据类型 数组名 [数组长度] = {元素,元素,…}</p>
@@ -100,8 +100,7 @@ int main(void)
     
     <summary type="html">
     
-      &lt;p&gt;&amp;emsp;&amp;emsp;C语言支持一维数组和多维数组，如果一个数组的所有元素都不是数组，那么该数组被称为一维数组。&lt;/p&gt;
-&lt;h1 id=&quot;一维数组&quot;&gt;&lt;a href=&quot;#一维数组&quot; class=&quot;headerlink&quot; title=&quot;一维数组&quot;&gt;&lt;/a&gt;一维数组&lt;/h1&gt;
+      &lt;p&gt;&amp;emsp;&amp;emsp;C语言支持一维数组和多维数组，如果一个数组的所有元素都不是数组，那么该数组被称为一维数组。&lt;br&gt;
     
     </summary>
     
