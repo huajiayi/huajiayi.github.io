@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.huajiayi.top/"/>
-  <updated>2017-05-29T15:02:11.879Z</updated>
+  <updated>2017-05-30T03:50:25.966Z</updated>
   <id>http://www.huajiayi.top/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.huajiayi.top/blog3.html"/>
     <id>http://www.huajiayi.top/blog3.html</id>
     <published>2017-05-29T13:38:28.000Z</published>
-    <updated>2017-05-29T15:02:11.879Z</updated>
+    <updated>2017-05-30T03:50:25.966Z</updated>
     
     <content type="html"><![CDATA[<p>&emsp;&emsp;C语言支持一维数组和多维数组，如果一个数组的所有元素都不是数组，那么该数组被称为一维数组。<br><a id="more"></a></p>
 <h1 id="一维数组"><a href="#一维数组" class="headerlink" title="一维数组"></a>一维数组</h1><h2 id="一维数组的定义方式"><a href="#一维数组的定义方式" class="headerlink" title="一维数组的定义方式"></a>一维数组的定义方式</h2><p>在C语言中使用数组必须先进行定义。一维数组的定义方式为：</p>
@@ -96,7 +96,96 @@ int main(void)
 
     return 0;
 }
-</code></pre>]]></content>
+</code></pre><h1 id="二维数组"><a href="#二维数组" class="headerlink" title="二维数组"></a>二维数组</h1><p>##二维数组的定义<br>二维数组的定义方式为：</p>
+<pre><code>int i[2][3] = {
+    {1,2,3},
+    {4,5,6}
+};
+</code></pre><p>其中2和3代表2行3列。</p>
+<p>也可以这样定义：</p>
+<pre><code>int i[2][3] = {1,2,3,4,5,6};
+</code></pre><p>不过这种定义方式不推荐，因为不够直观。</p>
+<p>##二维数组的实例</p>
+<pre><code># include &lt;stdio.h&gt;
+# define row 4 //行
+# define col 3 //列
+
+int main(void)
+{
+    //定义二维数组
+    int a[row][col] = {
+        {1,3,2},
+        {5,6,4},
+        {8,7,9},
+        {12,11,10}
+    };
+
+    //输出排序前的二维数组
+    int i, j, b, c, t;
+    printf(&quot;排序前：\n&quot;);
+    for(i=0;i&lt;row;i++)
+    {
+        for(j=0;j&lt;col;j++)
+        {
+            printf(&quot;%-3d&quot;, a[i][j]);
+        }
+        printf(&quot;\n&quot;);
+    }
+    printf(&quot;\n&quot;);
+
+    //输出每行最大值
+    int max;
+    for(i=0;i&lt;row;i++)
+    {
+        for(j=0;j&lt;col;j++)
+        {
+            if(max &lt; a[i][j])
+            {
+                max = a[i][j];
+            }
+        }
+        printf(&quot;第%d行最大值为：%d\n&quot;, i+1, max);
+    }
+    printf(&quot;\n&quot;);
+
+    //冒泡排序
+    for(i=0;i&lt;=9;i++)
+    {
+        for(j=i;j&lt;=9;j++)
+        {
+            b = i%row;
+            c = j%col;
+            if(a[b][c] &gt; a[b][c+1])
+            {
+                t = a[b][c];
+                a[b][c] = a[b][c+1];
+                a[b][c+1] = t;
+            }
+        }
+    }
+
+    //输出排序后的二维数组
+    printf(&quot;排序后：\n&quot;);
+    for(i=0;i&lt;row;i++)
+    {
+        for(j=0;j&lt;col;j++)
+        {
+            printf(&quot;%-3d&quot;, a[i][j]);
+        }
+        printf(&quot;\n&quot;);
+    }
+
+    return 0;
+}
+</code></pre><h1 id="多维数组"><a href="#多维数组" class="headerlink" title="多维数组"></a>多维数组</h1><p>##内存中是否存在多维数组？</p>
+<p>不存在，因为内存是线性一维的。</p>
+<p>n维数组可以当做每个元素是n-1维数组的一维数组。</p>
+<p>比如：</p>
+<pre><code>int i[2][3];
+</code></pre><p>该数组是含有2个元素的一维数组，只不过每个元素都可以再分成3个小元素</p>
+<pre><code>int i[2][3][4];
+</code></pre><p>该数组是含有2个元素的一维数组,只不过每个元素都是3行4列的二维数组</p>
+]]></content>
     
     <summary type="html">
     
