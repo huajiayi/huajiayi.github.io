@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.huajiayi.top/"/>
-  <updated>2017-05-30T03:52:18.385Z</updated>
+  <updated>2017-06-11T10:55:10.619Z</updated>
   <id>http://www.huajiayi.top/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.huajiayi.top/blog3.html"/>
     <id>http://www.huajiayi.top/blog3.html</id>
     <published>2017-05-29T13:38:28.000Z</published>
-    <updated>2017-05-30T03:52:18.385Z</updated>
+    <updated>2017-06-11T10:55:10.619Z</updated>
     
     <content type="html"><![CDATA[<p>&emsp;&emsp;C语言支持一维数组和多维数组，如果一个数组的所有元素都不是数组，那么该数组被称为一维数组。<br><a id="more"></a></p>
 <h1 id="一维数组"><a href="#一维数组" class="headerlink" title="一维数组"></a>一维数组</h1><h2 id="一维数组的定义方式"><a href="#一维数组的定义方式" class="headerlink" title="一维数组的定义方式"></a>一维数组的定义方式</h2><p>在C语言中使用数组必须先进行定义。一维数组的定义方式为：</p>
@@ -64,9 +64,9 @@ for(i=0; i&lt;5; i++)
 {
     a[i] == b[i]; //结果为true
 }
-</code></pre><h2 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h2><p>冒泡排序原理：</p>
+</code></pre><h2 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h2><p>选择排序原理：</p>
 <p>第一个元素和其他元素一一比较，如果其他元素的值比较小，则对换两个元素的值，以此获得最小的值，放在数组的第一位。然后第二个元素和第二个元素以后的其他元素进行比较，如果其他元素的值比较小，则对换两个元素的值，以此获得第二小的值，放在数组的第二位，以此类推。</p>
-<p>冒泡排序的实现：</p>
+<p>选择排序的实现：</p>
 <pre><code># include &lt;stdio.h&gt;
 
 int main(void)
@@ -147,7 +147,7 @@ int main(void)
     }
     printf(&quot;\n&quot;);
 
-    //冒泡排序
+    //选择排序
     for(i=0;i&lt;=9;i++)
     {
         for(j=i;j&lt;=9;j++)
