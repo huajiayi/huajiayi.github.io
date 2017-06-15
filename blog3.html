@@ -101,7 +101,7 @@
 <meta property="og:url" content="http://www.huajiayi.top/blog3.html">
 <meta property="og:site_name" content="华嘉熠’s Blog">
 <meta property="og:description" content="&amp;emsp;&amp;emsp;C语言支持一维数组和多维数组，如果一个数组的所有元素都不是数组，那么该数组被称为一维数组。">
-<meta property="og:updated_time" content="2017-06-11T10:55:10.619Z">
+<meta property="og:updated_time" content="2017-06-15T08:44:44.689Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="C语言学习-数组">
 <meta name="twitter:description" content="&amp;emsp;&amp;emsp;C语言支持一维数组和多维数组，如果一个数组的所有元素都不是数组，那么该数组被称为一维数组。">
@@ -558,9 +558,9 @@ int main(void)
     printf(&quot;\n&quot;);
 
     //选择排序
-    for(i=0;i&lt;=9;i++)
+    for(i=0;i&lt;=&lt;row*col-1;i++)
     {
-        for(j=i;j&lt;=9;j++)
+        for(j=i;j&lt;=row*col;j++)
         {
             b = i%row;
             c = j%col;
