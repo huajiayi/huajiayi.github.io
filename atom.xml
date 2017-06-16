@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.huajiayi.top/"/>
-  <updated>2017-06-16T14:54:50.320Z</updated>
+  <updated>2017-06-16T15:03:21.885Z</updated>
   <id>http://www.huajiayi.top/</id>
   
   <author>
@@ -20,11 +20,10 @@
     <link href="http://www.huajiayi.top/blog4.html"/>
     <id>http://www.huajiayi.top/blog4.html</id>
     <published>2017-06-16T13:38:48.000Z</published>
-    <updated>2017-06-16T14:54:50.320Z</updated>
+    <updated>2017-06-16T15:03:21.885Z</updated>
     
     <content type="html"><![CDATA[<p>&emsp;&emsp;计算机中所有的数据都必须放在内存中，不同类型的数据占用的字节数不一样，例如 int 占用4个字节，float 占用8个字节，char 占用<a id="more"></a>1个字节。为了正确地访问这些数据，必须为每个字节都编上号码，就像门牌号、身份证号一样，每个字节的编号是唯一的，根据编号可以准确地找到某个字节。</p>
-<p>#指针的定义和使用</p>
-<p>##指针和指针变量<br>指针（Pointer）就是内存的地址，C语言允许用一个变量来存放指针，这种变量称为指针变量。指针变量可以存放基本类型数据的地址，也可以存放数组、函数以及其他指针变量的地址。</p>
+<h1 id="指针的定义和使用"><a href="#指针的定义和使用" class="headerlink" title="指针的定义和使用"></a>指针的定义和使用</h1><h2 id="指针和指针变量"><a href="#指针和指针变量" class="headerlink" title="指针和指针变量"></a>指针和指针变量</h2><p>指针（Pointer）就是内存的地址，C语言允许用一个变量来存放指针，这种变量称为指针变量。指针变量可以存放基本类型数据的地址，也可以存放数组、函数以及其他指针变量的地址。</p>
 <p>定义指针变量与定义普通变量非常类似，不过要在变量名前面加星号*，格式为：</p>
 <pre><code>datatype * name;
 </code></pre><p>*表示这是一个指针变量，datatype表示该指针变量所指向的数据的类型 。例如：</p>
@@ -34,8 +33,7 @@ int *p_a = &amp;a;
 <p>现在p_a代表的是a的地址，那么*p_a也就是a的值，例如：</p>
 <pre><code>*p_a = 200;
 </code></pre><p>这样做就把a的值赋成了200。</p>
-<p>##指针使用热身</p>
-<pre><code>int i = 20;
+<h2 id="指针使用热身"><a href="#指针使用热身" class="headerlink" title="指针使用热身"></a>指针使用热身</h2><pre><code>int i = 20;
 int k = 10;
 int * p = &amp;k;
 int * o;
@@ -47,8 +45,7 @@ printf(&quot;o = %x\n&quot;, o); //输出*o的内存地址，如果不分配内�
 printf(&quot;a = %x\n&quot;, a); //输出*a的内存地址
 printf(&quot;k = %d\n&quot;, k);
 return 0;
-</code></pre><p>##指针使用实例——2个数字互换</p>
-<pre><code># include &lt;stdio.h&gt;
+</code></pre><h2 id="指针使用实例——2个数字互换"><a href="#指针使用实例——2个数字互换" class="headerlink" title="指针使用实例——2个数字互换"></a>指针使用实例——2个数字互换</h2><pre><code># include &lt;stdio.h&gt;
 
 void swap(int * a, int * b)
 {
@@ -71,13 +68,13 @@ int main(void)
 
     return 0;
 }
-</code></pre><p>##指针和数组的关系<br>在c语言中，数组名就是数组第0个元素的地址，例如：</p>
+</code></pre><h2 id="指针和数组的关系"><a href="#指针和数组的关系" class="headerlink" title="指针和数组的关系"></a>指针和数组的关系</h2><p>在c语言中，数组名就是数组第0个元素的地址，例如：</p>
 <pre><code>int arr[3] = {1,2,3};
 int * p = arr;
 </code></pre><p>这里*p的值为1，为什么arr前不要取地址符&amp;呢，因为arr就是数组里第0个元素的地址。</p>
 <p>数组的内存分配是连续的，所以第0个元素的地址加1就是第一个元素的地址，例如*(p+1)就等价于p[1]。</p>
 <pre><code>*(p+1) == p[1]; //true
-</code></pre><p>##指针变量占几个字节<br>在c语言中，可以用sizeof()函数来查看变量占用的内存空间，例如：</p>
+</code></pre><h2 id="指针变量占几个字节"><a href="#指针变量占几个字节" class="headerlink" title="指针变量占几个字节"></a>指针变量占几个字节</h2><p>在c语言中，可以用sizeof()函数来查看变量占用的内存空间，例如：</p>
 <pre><code>int i = 5;
 double d = 1.1;
 char ch = &apos;a&apos;;
@@ -93,12 +90,12 @@ sizeof(p_i); //4
 sizeof(p_d); //4
 sizeof(p_ch); //4
 </code></pre><p>可以看到指针变量永远只占4个字节。</p>
-<p>#malloc动态内存分配<br>传统的数组长度是固定的，也就是静态的，这就有了很大的局限性，所以就出现了动态内存分配，他可以使用户来决定数组的长度，malloc函数就是用来动态分配内存的函数。</p>
+<h1 id="malloc动态内存分配"><a href="#malloc动态内存分配" class="headerlink" title="malloc动态内存分配"></a>malloc动态内存分配</h1><p>传统的数组长度是固定的，也就是静态的，这就有了很大的局限性，所以就出现了动态内存分配，他可以使用户来决定数组的长度，malloc函数就是用来动态分配内存的函数。</p>
 <p>静态变量被存放于栈中，而动态变量存放于堆中，栈的特点是先进后出，堆的特点是先进先出。</p>
 <pre><code>int len = 4;
 int * pArr = (int *)malloc(len * sizeof(int)); //等价于pArr[4]
 </code></pre><p>这里要注意，由于malloc函数返回的值是void <em>类型，所以需要强制转换成int </em>类型，否则会报错。</p>
-<p>#多级指针<br>指针可以指向一份普通类型的数据，例如 int、double、char 等，也可以指向一份指针类型的数据，例如 int <em>、double </em>、char * 等。</p>
+<h1 id="多级指针"><a href="#多级指针" class="headerlink" title="多级指针"></a>多级指针</h1><p>指针可以指向一份普通类型的数据，例如 int、double、char 等，也可以指向一份指针类型的数据，例如 int <em>、double </em>、char * 等。</p>
 <p>如果一个指针指向的是另外一个指针，我们就称它为二级指针，或者指向指针的指针，例如：</p>
 <pre><code>int a =100;
 int *p1 = &amp;a;
