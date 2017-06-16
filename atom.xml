@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.huajiayi.top/"/>
-  <updated>2017-06-16T15:03:21.885Z</updated>
+  <updated>2017-06-16T15:06:21.166Z</updated>
   <id>http://www.huajiayi.top/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="http://www.huajiayi.top/blog4.html"/>
     <id>http://www.huajiayi.top/blog4.html</id>
     <published>2017-06-16T13:38:48.000Z</published>
-    <updated>2017-06-16T15:03:21.885Z</updated>
+    <updated>2017-06-16T15:06:21.166Z</updated>
     
-    <content type="html"><![CDATA[<p>&emsp;&emsp;计算机中所有的数据都必须放在内存中，不同类型的数据占用的字节数不一样，例如 int 占用4个字节，float 占用8个字节，char 占用<a id="more"></a>1个字节。为了正确地访问这些数据，必须为每个字节都编上号码，就像门牌号、身份证号一样，每个字节的编号是唯一的，根据编号可以准确地找到某个字节。</p>
+    <content type="html"><![CDATA[<p>&emsp;&emsp;计算机中所有的数据都必须放在内存中，不同类型的数据占用的字节数不一样，例如 int 占用4个字节，float 占用8个字节，char 占用1个字节。为了正确地访问这些数据，必须为每个字节都编上号码，就像门牌号、身份证号一样，每个字节的编号是唯一的，根据编号可以准确地找到某个字节。<a id="more"></a></p>
 <h1 id="指针的定义和使用"><a href="#指针的定义和使用" class="headerlink" title="指针的定义和使用"></a>指针的定义和使用</h1><h2 id="指针和指针变量"><a href="#指针和指针变量" class="headerlink" title="指针和指针变量"></a>指针和指针变量</h2><p>指针（Pointer）就是内存的地址，C语言允许用一个变量来存放指针，这种变量称为指针变量。指针变量可以存放基本类型数据的地址，也可以存放数组、函数以及其他指针变量的地址。</p>
 <p>定义指针变量与定义普通变量非常类似，不过要在变量名前面加星号*，格式为：</p>
 <pre><code>datatype * name;
@@ -109,16 +109,16 @@ int **p2 = &amp;p1;
     
     <summary type="html">
     
-      &lt;p&gt;&amp;emsp;&amp;emsp;计算机中所有的数据都必须放在内存中，不同类型的数据占用的字节数不一样，例如 int 占用4个字节，float 占用8个字节，char 占用
+      &lt;p&gt;&amp;emsp;&amp;emsp;计算机中所有的数据都必须放在内存中，不同类型的数据占用的字节数不一样，例如 int 占用4个字节，float 占用8个字节，char 占用1个字节。为了正确地访问这些数据，必须为每个字节都编上号码，就像门牌号、身份证号一样，每个字节的编号是唯一的，根据编号可以准确地找到某个字节。
     
     </summary>
     
       <category term="c语言学习笔记" scheme="http://www.huajiayi.top/categories/c%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="C语言" scheme="http://www.huajiayi.top/tags/C%E8%AF%AD%E8%A8%80/"/>
-    
       <category term="指针" scheme="http://www.huajiayi.top/tags/%E6%8C%87%E9%92%88/"/>
+    
+      <category term="C语言" scheme="http://www.huajiayi.top/tags/C%E8%AF%AD%E8%A8%80/"/>
     
   </entry>
   
@@ -301,11 +301,11 @@ int main(void)
       <category term="c语言学习笔记" scheme="http://www.huajiayi.top/categories/c%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
+      <category term="C语言" scheme="http://www.huajiayi.top/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
       <category term="冒泡排序" scheme="http://www.huajiayi.top/tags/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/"/>
     
       <category term="数组" scheme="http://www.huajiayi.top/tags/%E6%95%B0%E7%BB%84/"/>
-    
-      <category term="C语言" scheme="http://www.huajiayi.top/tags/C%E8%AF%AD%E8%A8%80/"/>
     
   </entry>
   
