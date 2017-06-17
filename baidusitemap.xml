@@ -4,18 +4,16 @@
 
     
   <url>
-    <loc>http://www.huajiayi.top/blog6.html</loc>
-    <lastmod>2017-06-17T15:44:07.466Z</lastmod>
+    <loc>http://www.huajiayi.top/blog5.html</loc>
+    <lastmod>2017-06-17T15:49:27.417Z</lastmod>
     <data>
         <display>
-        <title>（转）结构体中的内存对齐问题</title>
-        <pubTime>2017-06-17T15:12:06.000Z</pubTime>
+        <title>C语言学习-结构体</title>
+        <pubTime>2017-06-17T13:47:37.000Z</pubTime>
         
         <tag>C语言</tag>
          
         <tag>结构体</tag>
-         
-        <tag>内存对齐</tag>
          
          
            
@@ -28,16 +26,18 @@
 
     
   <url>
-    <loc>http://www.huajiayi.top/blog5.html</loc>
-    <lastmod>2017-06-17T15:27:53.085Z</lastmod>
+    <loc>http://www.huajiayi.top/blog6.html</loc>
+    <lastmod>2017-06-17T15:44:07.466Z</lastmod>
     <data>
         <display>
-        <title>C语言学习-结构体</title>
-        <pubTime>2017-06-17T13:47:37.000Z</pubTime>
+        <title>（转）结构体中的内存对齐问题</title>
+        <pubTime>2017-06-17T15:12:06.000Z</pubTime>
         
         <tag>C语言</tag>
          
         <tag>结构体</tag>
+         
+        <tag>内存对齐</tag>
          
          
            

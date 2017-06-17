@@ -101,7 +101,7 @@
 <meta property="og:url" content="http://www.huajiayi.top/blog5.html">
 <meta property="og:site_name" content="华嘉熠’s Blog">
 <meta property="og:description" content="&amp;emsp;&amp;emsp;结构体是用来存放一组不同类型数据的数据类型。">
-<meta property="og:updated_time" content="2017-06-17T15:27:53.085Z">
+<meta property="og:updated_time" content="2017-06-17T15:49:27.417Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="C语言学习-结构体">
 <meta name="twitter:description" content="&amp;emsp;&amp;emsp;结构体是用来存放一组不同类型数据的数据类型。">
@@ -435,10 +435,7 @@
         <p>&emsp;&emsp;结构体是用来存放一组不同类型数据的数据类型。<a id="more"></a></p>
 <h1 id="结构体的定义和使用"><a href="#结构体的定义和使用" class="headerlink" title="结构体的定义和使用"></a>结构体的定义和使用</h1><p>##结构体的定义<br>结构体的定义方式为：</p>
 <blockquote>
-<p>struct 结构体名</p>
-<p>{</p>
-<p>   结构体所包含的变量或数组</p>
-<p>};</p>
+<p>struct 结构体名<br>{<br>   结构体所包含的变量或数组<br>};</p>
 </blockquote>
 <p>举个栗子：</p>
 <pre><code>struct stu
@@ -607,7 +604,7 @@ int main(void)
 
     return 0;
 }
-</code></pre><h1 id="关于结构体的内存分配"><a href="#关于结构体的内存分配" class="headerlink" title="关于结构体的内存分配"></a>关于结构体的内存分配</h1><p>理论上讲结构体的各个成员在内存中是连续存储的，和数组非常类似。但是在编译器的具体实现中，各个成员之间可能会存在缝隙，可能会造成一个结构体变量定义完之后，其在内存中的存储并不等于其所包含元素的宽度之和。关于这个问题，我将会在《<a href="http://www.baidu.com" target="_blank" rel="external">结构体中的内存对齐问题</a>》中详细讲解。</p>
+</code></pre><h1 id="关于结构体的内存分配"><a href="#关于结构体的内存分配" class="headerlink" title="关于结构体的内存分配"></a>关于结构体的内存分配</h1><p>理论上讲结构体的各个成员在内存中是连续存储的，和数组非常类似。但是在编译器的具体实现中，各个成员之间可能会存在缝隙，可能会造成一个结构体变量定义完之后，其在内存中的存储并不等于其所包含元素的宽度之和。关于这个问题，我将会在《<a href="http://http://www.huajiayi.top/blog6.html#more" target="_blank" rel="external">结构体中的内存对齐问题</a>》中详细讲解。</p>
 
       
     </div>
