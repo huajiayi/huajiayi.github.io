@@ -3,9 +3,10 @@
 
 
     
+    
   <url>
     <loc>http://www.huajiayi.top/blog5.html</loc>
-    <lastmod>2017-06-17T15:51:51.857Z</lastmod>
+    <lastmod>2017-06-17T15:51:50.000Z</lastmod>
     <data>
         <display>
         <title>C语言学习-结构体</title>
@@ -27,7 +28,7 @@
     
   <url>
     <loc>http://www.huajiayi.top/blog6.html</loc>
-    <lastmod>2017-06-17T15:44:07.466Z</lastmod>
+    <lastmod>2017-06-17T15:44:06.000Z</lastmod>
     <data>
         <display>
         <title>（转）结构体中的内存对齐问题</title>
@@ -51,15 +52,15 @@
     
   <url>
     <loc>http://www.huajiayi.top/blog4.html</loc>
-    <lastmod>2017-06-16T15:06:21.166Z</lastmod>
+    <lastmod>2017-06-16T15:06:20.000Z</lastmod>
     <data>
         <display>
         <title>C语言学习-指针</title>
         <pubTime>2017-06-16T13:38:48.000Z</pubTime>
         
-        <tag>指针</tag>
-         
         <tag>C语言</tag>
+         
+        <tag>指针</tag>
          
          
            
@@ -73,17 +74,17 @@
     
   <url>
     <loc>http://www.huajiayi.top/blog3.html</loc>
-    <lastmod>2017-06-15T08:44:44.689Z</lastmod>
+    <lastmod>2017-06-15T08:44:44.000Z</lastmod>
     <data>
         <display>
         <title>C语言学习-数组</title>
         <pubTime>2017-05-29T13:38:28.000Z</pubTime>
         
-        <tag>C语言</tag>
-         
         <tag>冒泡排序</tag>
          
         <tag>数组</tag>
+         
+        <tag>C语言</tag>
          
          
            
@@ -97,7 +98,7 @@
     
   <url>
     <loc>http://www.huajiayi.top/vipjiexi.html</loc>
-    <lastmod>2017-05-29T13:41:06.144Z</lastmod>
+    <lastmod>2017-05-29T13:41:06.000Z</lastmod>
     <data>
         <display>
         <title>如何免费观看各大视频网站会员/收费视频</title>
@@ -118,7 +119,7 @@
     
   <url>
     <loc>http://www.huajiayi.top/mFirstBlog.html</loc>
-    <lastmod>2017-05-21T09:10:57.363Z</lastmod>
+    <lastmod>2017-05-21T09:10:56.000Z</lastmod>
     <data>
         <display>
         <title>用GitHub Page+Hexo搭建个人博客（持续更新）</title>
@@ -135,7 +136,6 @@
     </data>
     </url>
 
-    
     
     
     

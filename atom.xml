@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.huajiayi.top/"/>
-  <updated>2017-06-17T15:44:07.466Z</updated>
+  <updated>2017-06-17T15:44:06.000Z</updated>
   <id>http://www.huajiayi.top/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.huajiayi.top/blog6.html"/>
     <id>http://www.huajiayi.top/blog6.html</id>
     <published>2017-06-17T15:12:06.000Z</published>
-    <updated>2017-06-17T15:44:07.466Z</updated>
+    <updated>2017-06-17T15:44:06.000Z</updated>
     
     <content type="html"><![CDATA[<p>&emsp;&emsp;一个结构体变量定义完之后，其在内存中的存储并不等于其所包含元素的宽度之和。<a id="more"></a></p>
 <p>例一：</p>
@@ -144,7 +144,7 @@ void main()
     <link href="http://www.huajiayi.top/blog5.html"/>
     <id>http://www.huajiayi.top/blog5.html</id>
     <published>2017-06-17T13:47:37.000Z</published>
-    <updated>2017-06-17T15:51:51.857Z</updated>
+    <updated>2017-06-17T15:51:50.000Z</updated>
     
     <content type="html"><![CDATA[<p>&emsp;&emsp;结构体是用来存放一组不同类型数据的数据类型。<a id="more"></a></p>
 <h1 id="结构体的定义和使用"><a href="#结构体的定义和使用" class="headerlink" title="结构体的定义和使用"></a>结构体的定义和使用</h1><p>##结构体的定义<br>结构体的定义方式为：</p>
@@ -341,7 +341,7 @@ int main(void)
     <link href="http://www.huajiayi.top/blog4.html"/>
     <id>http://www.huajiayi.top/blog4.html</id>
     <published>2017-06-16T13:38:48.000Z</published>
-    <updated>2017-06-16T15:06:21.166Z</updated>
+    <updated>2017-06-16T15:06:20.000Z</updated>
     
     <content type="html"><![CDATA[<p>&emsp;&emsp;计算机中所有的数据都必须放在内存中，不同类型的数据占用的字节数不一样，例如 int 占用4个字节，float 占用8个字节，char 占用1个字节。为了正确地访问这些数据，必须为每个字节都编上号码，就像门牌号、身份证号一样，每个字节的编号是唯一的，根据编号可以准确地找到某个字节。<a id="more"></a></p>
 <h1 id="指针的定义和使用"><a href="#指针的定义和使用" class="headerlink" title="指针的定义和使用"></a>指针的定义和使用</h1><h2 id="指针和指针变量"><a href="#指针和指针变量" class="headerlink" title="指针和指针变量"></a>指针和指针变量</h2><p>指针（Pointer）就是内存的地址，C语言允许用一个变量来存放指针，这种变量称为指针变量。指针变量可以存放基本类型数据的地址，也可以存放数组、函数以及其他指针变量的地址。</p>
@@ -437,9 +437,9 @@ int **p2 = &amp;p1;
       <category term="c语言学习笔记" scheme="http://www.huajiayi.top/categories/c%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="指针" scheme="http://www.huajiayi.top/tags/%E6%8C%87%E9%92%88/"/>
-    
       <category term="C语言" scheme="http://www.huajiayi.top/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+      <category term="指针" scheme="http://www.huajiayi.top/tags/%E6%8C%87%E9%92%88/"/>
     
   </entry>
   
@@ -448,7 +448,7 @@ int **p2 = &amp;p1;
     <link href="http://www.huajiayi.top/blog3.html"/>
     <id>http://www.huajiayi.top/blog3.html</id>
     <published>2017-05-29T13:38:28.000Z</published>
-    <updated>2017-06-15T08:44:44.689Z</updated>
+    <updated>2017-06-15T08:44:44.000Z</updated>
     
     <content type="html"><![CDATA[<p>&emsp;&emsp;C语言支持一维数组和多维数组，如果一个数组的所有元素都不是数组，那么该数组被称为一维数组。<br><a id="more"></a></p>
 <h1 id="一维数组"><a href="#一维数组" class="headerlink" title="一维数组"></a>一维数组</h1><h2 id="一维数组的定义方式"><a href="#一维数组的定义方式" class="headerlink" title="一维数组的定义方式"></a>一维数组的定义方式</h2><p>在C语言中使用数组必须先进行定义。一维数组的定义方式为：</p>
@@ -622,11 +622,11 @@ int main(void)
       <category term="c语言学习笔记" scheme="http://www.huajiayi.top/categories/c%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="C语言" scheme="http://www.huajiayi.top/tags/C%E8%AF%AD%E8%A8%80/"/>
-    
       <category term="冒泡排序" scheme="http://www.huajiayi.top/tags/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/"/>
     
       <category term="数组" scheme="http://www.huajiayi.top/tags/%E6%95%B0%E7%BB%84/"/>
+    
+      <category term="C语言" scheme="http://www.huajiayi.top/tags/C%E8%AF%AD%E8%A8%80/"/>
     
   </entry>
   
@@ -635,7 +635,7 @@ int main(void)
     <link href="http://www.huajiayi.top/vipjiexi.html"/>
     <id>http://www.huajiayi.top/vipjiexi.html</id>
     <published>2017-05-21T08:01:57.000Z</published>
-    <updated>2017-05-29T13:41:06.144Z</updated>
+    <updated>2017-05-29T13:41:06.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://opiwm45uz.bkt.clouddn.com/wannaknow.png?imageslim" alt=""><br><a id="more"></a></p>
 <p>&emsp;&emsp;最近发现几个可以在线免费观看各大视频网站会员/收费视频的地方。我已经测试过了，速度比较稳定。</p><br><p>这是优酷的会员视频：一条狗的使命</p>
@@ -668,7 +668,7 @@ int main(void)
     <link href="http://www.huajiayi.top/mFirstBlog.html"/>
     <id>http://www.huajiayi.top/mFirstBlog.html</id>
     <published>2017-05-19T13:11:25.000Z</published>
-    <updated>2017-05-21T09:10:57.363Z</updated>
+    <updated>2017-05-21T09:10:56.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p><br></p>
 <p><img src="http://opiwm45uz.bkt.clouddn.com/hexo.png" alt=""><br>&emsp;&emsp;想要自己搭建个人博客的可以去看一下<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="external">GitHub+Hexo 搭建个人网站详细教程</a>,写的很详细。下面我会讲一下我在建博客的途中遇到的那些坑，希望看到这篇博客的同学们吸取一下我的教训，少走一些弯路。<a id="more"></a>另外，想要和我交♂朋友或者有什么问题想问我的可以加我QQ：1601939052，我的微信在侧边栏。</p>
